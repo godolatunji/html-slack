@@ -1,0 +1,31 @@
+{
+  "name": "html-slack",
+  "version": "1.0.0",
+  "description": "convert html to slack markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godolatunji/html-slack.git"
+  },
+  "keywords": [
+    "convert",
+    "slack",
+    "html",
+    "markdown"
+  ],
+  "author": "Olatunji Ayodabo <godolatunji@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/godolatunji/html-slack/issues"
+  },
+  "homepage": "https://github.com/godolatunji/html-slack#readme",
+  "dependencies": {
+    "turndown": "^4.0.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
