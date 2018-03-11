@@ -3,7 +3,7 @@ This package converts html to slack markdown with support for more html tags and
 
 #How to use
 ```js
-    const h2s = require('html-slack);
+    const h2s = require("html-slack");
 
     //  a header tag
     //  ============
