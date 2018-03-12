@@ -22,6 +22,18 @@ The following tags are supported
 5. the i and em tags - converted using \_text\_ format
 6. the blockquote and pre tags.
 7. the ol and ul tags
+8. u tag
 
 # To-do
 - conversion of table
+
+# Extra
+The converter also takes care of element with `text-decoration` style attribute.
+For example:
+```js
+//  ~this is a deleted text~
+    console.log(h2s('<span style="text-decoration: line-through">this is a deleted text</span>'));
+
+// `_this is an underlined text_`
+    console.log(h2s('<span style="text-decoration: underline">this is a underlined text</span>'));
+```
