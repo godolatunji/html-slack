@@ -1,6 +1,6 @@
 {
   "name": "html-slack",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An html to slack conversion utility that supports a wide array of html tags, converting them to slack suitable markdown",
   "main": "index.js",
   "scripts": {
